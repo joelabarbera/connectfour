@@ -188,6 +188,7 @@ bool isWon(int row, int col)
 		i--;
 		j++;
 	}
+	// check if the diagonal is valid
 	if (winDiag2 > 3)
 		return 1;
 
